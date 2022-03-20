@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.parent {
+  margin: auto;
+  width: 550px;
+}
+
+.face {
+  background-color: yellow;
+  height: 550px;
+  width: 550px;
+  position: inline;
+  border-radius: 50%;
+}
+
+.eye {
+  background-color: white;
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  top: 30%;
+  text-align: center;
+}
+
+.eye-left {
+  left: 8%;
+}
+
+.eye-right {
+  left: 27.5%;
+}
+
+.eyeball {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  z-index: 2;
+  top: 30%;
+  margin: auto;
+}
+
+.eyeball-left {
+}
+
+.eyeball-right {
+}
